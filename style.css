@@ -1,0 +1,62 @@
+*{
+    color: black;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: green;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
+.blackjack {
+    background-color: azure;
+    margin: 2px auto;
+    display: grid;
+    justify-content: center;
+    width: 30%;
+    border: 5px solid green;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    padding: 10px 30px;
+    background: green;
+    color: yellow;
+    margin-bottom: 2px;
+    margin-top: 2px;   
+}
+
+
+input{
+    margin: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box; 
+
+}
